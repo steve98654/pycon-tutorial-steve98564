@@ -58,3 +58,4 @@ def test_daaaangerous():
         assert False
     except ZeroDivisionError as e: 
         assert True, 'Should throw divide by zero error'
+
